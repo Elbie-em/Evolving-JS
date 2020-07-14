@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Elbie-em/Evolving-JS/issues"
   },
-  "homepage": "https://github.com/Elbie-em/Evolving-JS#readme"
+  "homepage": "https://github.com/Elbie-em/Evolving-JS#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
 }
