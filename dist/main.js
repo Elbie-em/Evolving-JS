@@ -94,7 +94,19 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconsole.log('Hello From JavaScript');\nconsole.log(moment__WEBPACK_IMPORTED_MODULE_0___default()().startOf('day').fromNow());\nconsole.log('Using Babel');\nvar name = \"Elbie\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\nfunction component() {\n  var element = document.createElement('div'); // Lodash, now imported by this script\n\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_1___default.a.join(['Hello', 'webpack'], ' ');\n  return element;\n}\n\nvar container = document.getElementById('cont');\ncontainer.appendChild(component());\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _myName__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./myName */ \"./js/myName.js\");\n\n\n\nconsole.log('Hello From JavaScript');\nconsole.log(moment__WEBPACK_IMPORTED_MODULE_0___default()().startOf('day').fromNow());\nconsole.log('Using Babel');\nvar name = \"Elbie\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\")); //Components\n\nfunction compo() {\n  var element = document.createElement('div'); // use your function!\n\n  element.innerHTML = Object(_myName__WEBPACK_IMPORTED_MODULE_2__[\"default\"])('Elbie');\n  return element;\n}\n\nfunction component() {\n  var element = document.createElement('div'); // Lodash, now imported by this script\n\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_1___default.a.join(['Hello', 'webpack'], ' ');\n  return element;\n}\n\nvar container = document.getElementById('cont');\ncontainer.appendChild(component());\ncontainer.appendChild(compo());\n\n//# sourceURL=webpack:///./js/index.js?");
+
+/***/ }),
+
+/***/ "./js/myName.js":
+/*!**********************!*\
+  !*** ./js/myName.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar myName = function myName(name) {\n  return 'Hi! My name is ' + name;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (myName);\n\n//# sourceURL=webpack:///./js/myName.js?");
 
 /***/ }),
 
