@@ -1,12 +1,16 @@
 import moment from 'moment';
 import _ from 'lodash';
 import myName from './myName';
+import {functionOne, functionTwo} from './sokas'
 
 console.log('Hello From JavaScript');
 console.log(moment().startOf('day').fromNow());
 console.log('Using Babel');
 var name = "Elbie", time = "today";
 console.log(`Hello ${name}, how are you ${time}?`);
+console.log('-----SOKAS IN THE HOUSE------');
+console.log(functionOne());
+console.log(functionTwo());
 
 //Components
 
