@@ -90,10 +90,11 @@
 /*!*********************!*\
   !*** ./js/index.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log('Hello From JavaScript');\nconsole.log(moment().startOf('day').fromNow());\nconsole.log('Using Babel');\nvar name = \"Elbie\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\n//# sourceURL=webpack:///./js/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log('Hello From JavaScript');\nconsole.log(moment__WEBPACK_IMPORTED_MODULE_0___default()().startOf('day').fromNow());\nconsole.log('Using Babel');\nvar name = \"Elbie\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
