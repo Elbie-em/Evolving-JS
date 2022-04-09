@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Elbie-em/Evolving-JS#readme",
   "dependencies": {
     "lodash": "^4.17.19",
-    "moment": "^2.27.0"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
